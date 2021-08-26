@@ -14,10 +14,10 @@ function App() {
     setTotal(number1 + number2);
   }
   function calculateTotal1() {
-    setTotal(number1 - number2);
+    setTotal1(number1 - number2);
   }
   function calculateTotal2() {
-    setTotal(number1 * number2);
+    setTotal2(number1 * number2);
   }
 
   return (
@@ -41,13 +41,12 @@ function App() {
 
       <button onClick={calculateTotal}>Add Them!</button>
 
-      <button onClick={calculateTotal}>subtract Them!</button>
+      <button onClick={calculateTotal1}>subtract Them!</button>
 
-      <button onClick={calculateTotal}>multiply Them!</button>
+      <button onClick={calculateTotal2}>multiply Them!</button>
       <h2>{total}</h2>
-      <h2>{total}</h2>
-
-      <h2>{total}</h2>
+      <h2>{total1}</h2>
+      <h2>{total2}</h2>
     </div>
   );
 }
