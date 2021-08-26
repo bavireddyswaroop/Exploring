@@ -1,7 +1,7 @@
 {
   "name": "challenge-react",
   "version": "1.0.0",
-  "description": "Scotch.io React challenge",
+  "description": "React challenge",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
